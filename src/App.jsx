@@ -1,9 +1,15 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import FeatureSection from "./components/FeatureSection";
+import Workflow from "./components/Workflow";
+import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 const  App = () => {
   return (
     <div className="max-w-7xl mx-auto pt-10 px-6">
-    <Navbar /><HeroSection /></div>
+    <Navbar /><HeroSection /> <FeatureSection /><Workflow /><Pricing/><Testimonials/><Footer/>
+    </div>
   );
 };
 export default  App
